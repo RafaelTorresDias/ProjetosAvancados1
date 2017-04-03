@@ -63,4 +63,12 @@ public class Pizza {
 
         return listaDeIngredientes;
     }
+
+    public static void main(String[] args) {
+        Pizza p = new Pizza();
+        p.adiconarIngrediente("Queijo");
+        p.adiconarIngrediente("Presunto");
+        System.out.println(p.getListaDeIngredientes());
+
+    }
 }
