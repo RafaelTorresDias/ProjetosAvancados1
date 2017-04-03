@@ -67,7 +67,7 @@ public class Pizza {
     public static void main(String[] args) {
         Pizza p = new Pizza();
         p.adiconarIngrediente("Queijo");
-        p.adiconarIngrediente("Azeitona");
+        p.adiconarIngrediente("Adicionei uma Branch na Pizza");
         System.out.println(p.getListaDeIngredientes());
 
     }
